@@ -47,6 +47,7 @@ header {
     background-image: url("../images/hero-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .hero-image {
@@ -91,7 +92,7 @@ header {
 .container-header h1{
     font-size: 3rem;
     font-weight: 600;
-    margin-block: 2rem;
+    margin-block: 0rem 2rem;
 }
 
 .container-header p{
@@ -101,16 +102,135 @@ header {
 
 .container-header a{
     border: none;
-    background-color: white;
+    background-color: #4175fc;
     padding: 10px 30px;
     margin-top: 40px;
     border-radius: 5px;
     display: block;
     width: fit-content;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .container-header svg{
     width: 8px;
+    fill: white;
+}
+
+section{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.block-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.block-2 div{
+    padding: 100px;
+}
+
+.colored-1{
+    background: #f3f5f5;
+}
+
+.colored-2{
+    background: #4175fc;
+    color: white;
+}
+
+.colored-1 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-block: 20px;
+}
+
+.colored-1 p{
+    line-height: 1.8;
+}
+
+.colored-2 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-block: 20px;
+}
+
+.colored-2 p{
+    line-height: 1.8;
+}
+
+.block-3{
+    margin-block: 150px;
+    text-align: center;
+}
+
+.block-3 h2{
+    font-size: 2.5rem;
+    margin-block: 20px;
+    font-weight: 600;
+}
+
+.block-3 > p{
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.box-1{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.box-1 img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box-1 h3{
+    font-weight: bold;
+    margin-block: 20px;
+}
+
+.pri-btn{
+    border: none;
+    border:2px solid;
+    border-color: #4175fc;
+    padding: 10px 60px;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    color: #4175fc;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 100px;
+    transition: 100ms;
+}
+
+.pri-btn:hover{
+    background-color: #4175fc;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer svg{
+    height: 30px;
+    fill: white;
+    margin: 10px;
+}
+.link-blocks{
+margin-top: 20px;
+}
+
+.footer-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
 }
