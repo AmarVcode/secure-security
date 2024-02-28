@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.my-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    z-index: 10;
+    padding: 1.5rem;
+}
+
+.navigator {
+    justify-content: space-around;
+    z-index: 10;
+}
+
+.navigator a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navigator .active {
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/hero-image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -10;
+}
+
+.dark-bg {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.601);
+}
+
+.smblock-1 {
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+    color: white;
+    z-index: 10;
+    font-size: 14px;
+}
+
+.smblock-1 a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.container-header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: 100%;
+    color: white;
+    position: relative;
+    top: -100px;
+}
+
+.container-header h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-block: 2rem;
+}
+
+.container-header p{
+    max-width: 500px;
+    line-height: 1.8;
+}
+
+.container-header a{
+    border: none;
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+    color: black;
+    text-decoration: none;
+}
+
+.container-header svg{
+    width: 8px;
+}
