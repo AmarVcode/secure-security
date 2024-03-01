@@ -338,13 +338,45 @@ color: rgba(128, 128, 128, 0.471);
 
 #team-hero{
     background-image: url(../images/team-hero-image.webp);
+    background-position: center;
 }
 
+#client-hero-image{
+    background-image: url(../images/clients-hero-images.webp);
+    background-position: right;
+}
 
+#client-hero-image .container-header{
+    grid-template-columns: 100% 0%;
+    padding-left: 100px;
+}
 
+.grid-box-3{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    
+}
 
+.client-box{
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.20);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
 
+.client-box h3{
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 10px;
+}
 
+.end-clients{
+    padding-block: 80px;
+}
 
 
 
@@ -471,6 +503,18 @@ color: rgba(128, 128, 128, 0.471);
 
     #contact-form textarea{
     height: 40px;
+    }
+
+    .grid-box-3{
+        grid-template-columns: 50% 50%;
+    }
+    .end-clients{
+        padding-block: 40px;
+    }
+
+    #client-hero-image .container-header{
+        grid-template-columns: 100% 0%;
+        padding-left: 40px;
     }
 }
 
@@ -638,5 +682,18 @@ color: rgba(128, 128, 128, 0.471);
     .block-2 .blocker-3{
         padding: 0;
         height: 50vh;
+    }
+    .grid-box-3{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        
+    }
+
+    .end-clients{
+        padding-block: 30px;
+    }
+    #client-hero-image .container-header{
+        padding-left: 10px;
     }
 }
