@@ -336,6 +336,9 @@ color: rgba(128, 128, 128, 0.471);
     width: 100%;
 }
 
+#team-hero{
+    background-image: url(../images/team-hero-image.webp);
+}
 
 
 
