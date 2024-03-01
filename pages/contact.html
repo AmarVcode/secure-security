@@ -68,14 +68,14 @@
             <div class="container-header">
                 <div>
 
-                    <form action="#" id="contact-form">
+                    <form action="../php/contact.php" method="post" id="contact-form">
                         <h1>
                             Connect With Us
                         </h1>
-                        <input type="text" placeholder="Type Your Name">
-                        <input type="email" placeholder="Type Your Email">
-                        <input type="text" placeholder="Type Your Subject">
-                        <textarea rows="6" placeholder="Type Your Message"></textarea>
+                        <input type="text" name="name" placeholder="Type Your Name">
+                        <input type="email" name="email" placeholder="Type Your Email">
+                        <input type="text" name="subject" placeholder="Type Your Subject">
+                        <textarea rows="6" name="message" placeholder="Type Your Message"></textarea>
                         <button>Send Message</button>
                     </form>
                 </div>
