@@ -55,6 +55,8 @@ header {
 
 #home-hero{
     background-image: url("../images/hero-image.webp");
+    background-size: contain;
+    
 }
 
 #contact-hero{
@@ -420,7 +422,9 @@ color: rgba(128, 128, 128, 0.471);
     line-height: 1.8;
 }
 
-
+#about-hero{
+    background-image: url(../images/about-hero-image.webp);
+}
 
 
 
