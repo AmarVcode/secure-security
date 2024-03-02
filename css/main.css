@@ -378,6 +378,16 @@ color: rgba(128, 128, 128, 0.471);
     padding-block: 80px;
 }
 
+#hero-image-service{
+    background-image: url(../images/hero-image-service.webp);
+    background-position: right;
+}
+
+#hero-image-service .container-header{
+    grid-template-columns: 100% 0%;
+    padding-left: 100px;
+
+}
 
 
 
