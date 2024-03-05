@@ -4,7 +4,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.pc-tab-hidden{
+.pc-tab-hidden {
     display: none;
 }
 
@@ -53,13 +53,13 @@ header {
     overflow: hidden;
 }
 
-#home-hero{
+#home-hero {
     background-image: url("../images/hero-image.webp");
     background-size: contain;
-    
+
 }
 
-#contact-hero{
+#contact-hero {
     background-image: url("../images/contact-hero-img.webp");
 }
 
@@ -276,7 +276,7 @@ footer h2 {
     padding-top: 30px;
 }
 
-#contact-form{
+#contact-form {
     display: grid;
     max-width: 400px;
     padding: 20px;
@@ -285,17 +285,18 @@ footer h2 {
     margin: auto;
 }
 
-#contact-form input,textarea{
+#contact-form input,
+textarea {
     font-size: 1rem;
     padding: 5px;
 }
 
-#contact-hero .container-header h1{
+#contact-hero .container-header h1 {
     margin-bottom: 0rem;
     font-weight: lighter;
 }
 
-#contact-form button{
+#contact-form button {
     font-size: 1rem;
     padding: 5px;
     border: none;
@@ -306,7 +307,7 @@ footer h2 {
     transition: 100ms;
 }
 
-#contact-form button:hover{
+#contact-form button:hover {
     background-color: white;
     color: #4175fc;
 }
@@ -315,52 +316,52 @@ footer h2 {
     padding: 20px;
 }
 
-.block-2 .exp-pad h3{
+.block-2 .exp-pad h3 {
     font-size: 2rem;
     font-weight: lighter;
     padding-block: 10px;
     color: #4175fc;
 }
 
-.block-2 .exp-pad a{
+.block-2 .exp-pad a {
     text-decoration: none;
     display: block;
     color: black;
     line-height: 30px;
 }
 
-.block-2 hr{
-color: rgba(128, 128, 128, 0.471);
+.block-2 hr {
+    color: rgba(128, 128, 128, 0.471);
 }
 
-.block-2 iframe{
+.block-2 iframe {
     height: 100%;
     width: 100%;
 }
 
-#team-hero{
+#team-hero {
     background-image: url(../images/team-hero-image.webp);
     background-position: center;
 }
 
-#client-hero-image{
+#client-hero-image {
     background-image: url(../images/clients-hero-images.webp);
     background-position: right;
 }
 
-#client-hero-image .container-header{
+#client-hero-image .container-header {
     grid-template-columns: 100% 0%;
     padding-left: 100px;
 }
 
-.grid-box-3{
+.grid-box-3 {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
-    
+
 }
 
-.client-box{
+.client-box {
     border-radius: 10px;
     box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.20);
     padding: 15px;
@@ -370,28 +371,28 @@ color: rgba(128, 128, 128, 0.471);
     margin: 20px;
 }
 
-.client-box h3{
+.client-box h3 {
     font-weight: 400;
     font-size: 1.4rem;
     padding: 10px;
 }
 
-.end-clients{
+.end-clients {
     padding-block: 80px;
 }
 
-#hero-image-service{
+#hero-image-service {
     background-image: url(../images/hero-image-service.webp);
     background-position: right;
 }
 
-#hero-image-service .container-header{
+#hero-image-service .container-header {
     grid-template-columns: 100% 0%;
     padding-left: 100px;
 
 }
 
-.my-grid-67 > div{
+.my-grid-67>div {
     display: grid;
     grid-template-columns: 50% 50%;
     text-align: left;
@@ -399,46 +400,103 @@ color: rgba(128, 128, 128, 0.471);
     padding-top: 40px;
 }
 
-.my-grid-67 img{
+.my-grid-67 img {
     width: 100%;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0px 0px 50px rgba(128, 128, 128, 0.481);
 }
 
-.my-grid-67 > div > div{
+.my-grid-67>div>div {
     box-sizing: border-box;
     padding: 25px;
     margin-block: 20px;
 }
 
-.my-grid-67 h3{
+.my-grid-67 h3 {
     font-size: 2rem;
     font-weight: 400;
     padding-block: 20px;
 }
 
-.my-grid-67 p{
+.my-grid-67 p {
     line-height: 1.8;
 }
 
-#about-hero{
+#about-hero {
     background-image: url(../images/about-hero-image.webp);
 }
 
-#about-hero .container-header{
+#about-hero .container-header {
     grid-template-columns: 0% 100%;
     text-align: center;
 }
 
-#about-hero .container-header h2{
-max-width: 1000px;
-margin: auto;
-line-height: 1.5;
-font-size: 2rem;
-font-weight: 400;
+#about-hero .container-header h2 {
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
+.block-about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-bottom: 40px;
+}
+
+.block-about img {
+    width: 100%;
+}
+
+.block-about p {
+    line-height: 1.8;
+}
+
+
+.block-about h2 {
+    font-size: 2rem;
+    padding-block: 1rem;
+}
+
+.mega-p {
+    line-height: 1.8;
+    padding-inline: 100px;
+    padding-bottom: 100px;
+}
+
+
+.full-img {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+
+align-items: center;}
+
+.full-img img {
+    width: 100%;
+    display: block;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    justify-content: center;
+    padding-block: 100px;
+}
+.gallery img{
+    width: 100%;
+transform: scale(.95);
+transform-origin: center;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+
+}
 
 
 
@@ -557,25 +615,42 @@ font-weight: 400;
         height: 350px;
     }
 
-    #contact-form textarea{
-    height: 40px;
+    #contact-form textarea {
+        height: 40px;
     }
 
-    .grid-box-3{
+    .grid-box-3 {
         grid-template-columns: 50% 50%;
     }
-    .end-clients{
+
+    .end-clients {
         padding-block: 40px;
     }
 
-    #client-hero-image .container-header{
+    #client-hero-image .container-header {
         grid-template-columns: 100% 0%;
         padding-left: 40px;
     }
-    #hero-image-service .container-header{
+
+    #hero-image-service .container-header {
         padding-left: 40px;
-    
+
     }
+
+    #about-hero h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .block-about {
+        padding: 40px;
+    }
+
+    .maga-p{
+        padding-inline: 40px !important;
+        padding: 40px;
+    }
+
+
 }
 
 
@@ -698,83 +773,105 @@ font-weight: 400;
         row-gap: 40px;
     }
 
-    .block-3 p{
+    .block-3 p {
         margin-bottom: 40px;
     }
 
-    .pri-btn{
+    .pri-btn {
         margin-top: 20px;
     }
 
-    footer .footer-1{
+    footer .footer-1 {
         grid-template-columns: 100%;
         row-gap: 60px;
     }
 
-    footer .footer-1 h3{
+    footer .footer-1 h3 {
         padding-bottom: 10px;
     }
 
-    footer .footer-1 h2{
+    footer .footer-1 h2 {
         padding-bottom: 15px;
     }
-    .pc-tab-hidden{
+
+    .pc-tab-hidden {
         display: block;
     }
 
-    #contact-hero .container-header{
+    #contact-hero .container-header {
         grid-template-columns: 100% 0%;
     }
 
-    #contact-hero{
+    #contact-hero {
         background-position: right;
     }
 
-    .block-2 iframe{
+    .block-2 iframe {
         height: 100%;
         width: 100%;
     }
 
-    .block-2 .blocker-2{
+    .block-2 .blocker-2 {
         padding: 20px;
     }
 
-    .block-2 .blocker-3{
+    .block-2 .blocker-3 {
         padding: 0;
         height: 50vh;
     }
-    .grid-box-3{
+
+    .grid-box-3 {
         display: grid;
         grid-template-columns: 100%;
         justify-content: center;
-        
+
     }
 
-    .end-clients{
+    .end-clients {
         padding-block: 30px;
     }
-    #client-hero-image .container-header{
+
+    #client-hero-image .container-header {
         padding-left: 10px;
     }
 
-    .my-grid-67 > div{
+    .my-grid-67>div {
         display: flex;
         flex-direction: column;
         padding-top: 0;
     }
-    .my-grid-67 .exp-box-1{
-        flex-direction: column-reverse ;
+
+    .my-grid-67 .exp-box-1 {
+        flex-direction: column-reverse;
     }
-    .my-grid-67 > div > div{
+
+    .my-grid-67>div>div {
         margin-block: 0px;
         padding-block: 0px;
     }
 
-    .my-grid-67 > div{
+    .my-grid-67>div {
         margin-block: 40px;
     }
 
-    .my-grid-67 h3{
+    .my-grid-67 h3 {
         padding-bottom: 5px;
     }
+
+    .block-about {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.mega-p{
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.full-img{
+    grid-template-columns: 100%;
+    row-gap: 20px;
+    padding: 0;
+}
+
 }
